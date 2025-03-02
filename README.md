@@ -1,7 +1,6 @@
 # Final-Project: Analysis of the Evolution of Comorbidity Networks over 1997-2014
 
-## Author 
-Yijia Sun
+## Author: Yijia Sun
 
 ## Disclaimer
 This project was submitted for STATS201 Machine Learning for Social Science, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025.
