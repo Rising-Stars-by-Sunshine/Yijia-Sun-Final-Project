@@ -17,10 +17,10 @@ env\Scripts\activate  # On Windows
 ```
 
 ### **B. Install Required Dependencies**
-All dependencies are listed in requirements.txt. Install them using:
+All dependencies are listed in `requirements.txt` in `dependencies/` folder. Install them using:
 
 ```bash
-pip install -r docs/Dependencies/requirements.txt
+pip install -r docs/dependencies/requirements.txt
 ```
 
 ### **C. Run Jupyter Notebooks**
@@ -44,7 +44,7 @@ python code/ML-Explanation-SNA.py
 ```
 
 ## **2. Dependencies**
-The following libraries are required for execution. They are included in requirements.txt, but can also be installed manually:
+The following libraries are required for execution. They are included in `requirements.txt`, but can also be installed manually:
 
 ```bash
 pip install pandas numpy matplotlib networkx scipy scikit-learn jupyter
@@ -98,6 +98,6 @@ This script:
 
 | Issue | Possible Cause | Solution |
 |--------|------------------|------------|
-| `ModuleNotFoundError` | Missing dependency | Run `pip install -r docs/Dependencies/requirements.txt` |
+| `ModuleNotFoundError` | Missing dependency | Run `pip install -r docs/dependencies/requirements.txt` |
 | `FileNotFoundError` | Dataset missing | Ensure `Preprocessed_Comorbidity_Data_PS2.csv` is in `data/` folder |
 | Kernel crashes in Jupyter | Memory overload | Run scripts instead of notebooks (`python code/ML-Explanation-SNA.py`) |
